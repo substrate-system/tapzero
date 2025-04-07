@@ -185,8 +185,11 @@ export class Test {
   ok (actual, msg) {
     if (this.strict && !msg) throw new Error('tapzero msg required')
     this._assert(
-      !!actual, actual, 'truthy value',
-      msg || 'should be truthy', 'ok'
+      !!actual,
+      actual,
+      'truthy value',
+      msg || 'should be truthy',
+      'ok'
     )
   }
 
@@ -245,8 +248,11 @@ export class Test {
    * @returns {void}
    */
   _assert (
-    pass, actual, expected,
-    description, operator
+    pass,
+    actual,
+    expected,
+    description,
+    operator
   ) {
     if (this.done) {
       throw new Error(
@@ -262,7 +268,6 @@ export class Test {
 
     if (this._actual === this._planned) {
       this._resolve && this._resolve()
-      // this._clearTimeout()
     }
 
     const report = this.runner.report

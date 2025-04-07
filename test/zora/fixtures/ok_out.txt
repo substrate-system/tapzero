@@ -1,0 +1,9 @@
+TAP version 13
+# ok handles "truthy" values
+ok 1 should handle truthy value
+
+1..1
+# tests 1
+# pass  1
+
+# ok
