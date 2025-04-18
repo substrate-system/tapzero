@@ -89,10 +89,5 @@
       "email": "raynos2@gmail.com"
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/substrate-system/tapzero/raw/master/LICENSE"
-    }
-  ]
+  "license": "SEE LIECENSE IN LICENSE"
 }

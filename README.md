@@ -5,7 +5,7 @@
 [![type-coverage](https://img.shields.io/badge/dynamic/json.svg?style=flat-square&label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fsubstrate-system%2Ftapzero%2Ffork%2Fpackage.json)](https://github.com/substrate-system/tapzero)
 [![install size](https://flat.badgen.net/packagephobia/install/@substrate-system/tapzero?cache-control=no-cache)](https://packagephobia.com/result?p=@substrate-system/tapzero)
 [![semantic versioning](https://img.shields.io/badge/semver-2.0.0-blue?logo=semver&style=flat-square)](https://semver.org/)
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![license](https://img.shields.io/badge/license-Polyform_Small_Business-249fbc?style=flat-square)](LICENSE)
 
 
 Zero dependency test framework
